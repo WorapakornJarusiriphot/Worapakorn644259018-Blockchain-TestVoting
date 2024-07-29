@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "setMessage2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorldExtend.sol": "HelloWorldExtend2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorld.sol": {
+			"keccak256": "0x6a136b4d854f71eed1ec3e06830d3a6bee519a35de597339d2eb3cd3b62985f6",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4aeae957c94f0bc7a6c4799d59c5cf9c698f1bb9f1bedcd787b473a958fc3d71",
+				"dweb:/ipfs/QmX3nXJ2U4aqMFk4LZMijHoeunQtPkAAeiznQArBi3FDqm"
+			]
+		},
+		"contracts/HelloWorldExtend.sol": {
+			"keccak256": "0x85523061a49a41ebb7cb3932f1c7e73d640cfa24c0c46ffbfe8c6fa9bc486315",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a9b148d988b61ce6877ffdc84a5aca593bbc2bb2290fb4646e7cd24d03dabe6d",
+				"dweb:/ipfs/QmfTyiPCwQEvCiJ9aowEqnumqh2Kr5bYWZmBGjEcmfWR9h"
+			]
+		}
+	},
+	"version": 1
+}
